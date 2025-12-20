@@ -1,0 +1,54 @@
+<svg width="30" height="30" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc2ff"/>
+      <stop offset="45%" stop-color="#d96be5"/>
+      <stop offset="100%" stop-color="#8a2b99"/>
+    </linearGradient>
+
+    <linearGradient id="btnBevel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="arrow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffe3ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <rect x="4" y="4" width="56" height="56" rx="10"
+        fill="#000" opacity="0.35"/>
+
+  <!-- Button -->
+  <rect x="6" y="6" width="52" height="52" rx="9"
+        fill="url(#btn)" stroke="#000" stroke-width="2"/>
+
+  <!-- Inner bevel -->
+  <rect x="9" y="9" width="46" height="46" rx="8"
+        fill="none" stroke="url(#btnBevel)" stroke-width="2"/>
+
+  <!-- Unified arrow (shaft + head as one shape) -->
+  <path d="
+    M28 50
+    H36
+    V30
+    H46
+    L32 14
+    L18 30
+    H28
+    Z"
+    fill="url(#arrow)"
+    stroke="#000"
+    stroke-width="2"
+    stroke-linejoin="round"/>
+
+  <!-- Tray -->
+  <rect x="18" y="48" width="28" height="6"
+        rx="1" fill="#1a1a1a" stroke="#000"/>
+
+  <!-- Highlight -->
+  <rect x="8" y="8" width="48" height="20" rx="8"
+        fill="#fff" opacity="0.25"/>
+</svg>
