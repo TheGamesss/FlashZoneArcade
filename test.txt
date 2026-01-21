@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FlashZone Arcade</title>
+<link rel="icon" type="image/x-icon" href="https://thegamesss.github.io/FlashZoneArcade/favicon.svg">
+<link rel="stylesheet" href="https://thegamesss.github.io/FlashZoneArcade/main-style.css">
+<style>
+  @font-face {
+  	font-family: ZenDots;
+  	src: url(https://thegamesss.github.io/FlashZoneArcade/ZenDots-Regular.ttf);
+  }
+  
+  .sidebar {
+  	width: 0;
+  	padding: 0;
+  }
+  
+  .game-card {
+  	width: 67%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .play-btn {
+  	width: 67%;
+  }
+  
+  .thumb-txt {
+  	font-size: 485%;
+  	font-family: ZenDots;
+  	text-shadow: 3px 3px 10px #000;
+  }
+  
+  .game-thumb {
+  	height: 125px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	background: linear-gradient(to bottom, rgb(0,0,0), rgb(0,0,130))
+  }
+  
+  .game-title {
+  	font-weight: bold;
+  	font-size: 16px;
+  	margin-bottom: 10px;
+    text-shadow: 3px 3px 5px #000;
+  }
+  
+  .content {
+  	display: grid;
+  	max-height: calc(100vh - 95px);
+  	gap: 12px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="bg-image"></div>
+  
+<div class="body-container">
+  
+<!-- HEADER -->
+<div class="header">
+  <div class="logo-container"><img src="https://thegamesss.github.io/FlashZoneArcade/favicon.svg" height="34px"></img><div class="logo">FlashZone Arcade</div></div>
+  <button class="flash-btn">Login</button>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+      <div class="game-card">
+        <div class="game-thumb"><font class="thumb-txt">Sign Up</font></div>
+        <div class="game-title">Follow the instructions to complete the setup:</div>
+        <div class="icon-play-container">
+
+          <button class="flash-btn play-btn" onclick="">Go To Homepage</button>
+
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div class="game-thumb"><font class="thumb-txt">Log In</font></div>
+        <div class="game-title">Follow the instructions to complete the setup:</div>
+        <div class="icon-play-container">
+
+          <button class="flash-btn play-btn" onclick="">Go To Homepage</button>
+
+        </div>
+      </div>
+    
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2006–2025 FlashZone Arcade · Best viewed at 1024×768
+</div>
+  
+</div>
+  
+</body>
+</html>
