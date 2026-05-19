@@ -1,0 +1,97 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background: linear-gradient(to bottom right, #1818ff, #ffc0cb);
+  padding: 30px;
+  color: #222;
+  display: block;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.container {
+  background: #f8f8f8;
+  padding: 60px;
+  max-width: 880px;
+  display: block;
+  border: 1px solid #777;
+  box-shadow: 0 0 67px rgba(20, 20, 20, 0.5);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gameContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  aspect-ratio: 16 / 10;
+  border: 1px solid #333;
+  width: 90%;
+  max-width: 800px;
+  background: #050505;
+  position: relative;
+  overflow: hidden;
+}
+
+#gameContainer.is-ready .gameStatus {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.gameStage,
+.rufflePlayer {
+  width: 100%;
+  height: 100%;
+}
+
+.gameStatus {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 24px;
+  color: #f8f8f8;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.12), transparent 40%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.68));
+  transition: opacity 180ms ease;
+}
+
+.gameStatus strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.gameStatus p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.subtitle {
+  line-height: 1.5;
+}
+
+.subtitle ul {
+  text-align: left;
+  display: inline-block;
+  margin: 14px 0 0;
+}
+
+@media (max-width: 720px) {
+  body {
+    padding: 16px;
+  }
+
+  .container {
+    padding: 24px;
+  }
+
+  #gameContainer {
+    width: 100%;
+  }
+}

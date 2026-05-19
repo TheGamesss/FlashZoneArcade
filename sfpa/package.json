@@ -1,0 +1,16 @@
+{
+  "name": "sfpa-web-shell",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static web shell for Super Fancy Pants Adventure",
+  "scripts": {
+    "build": "node scripts/copy-ruffle.mjs && node scripts/prepare-site.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@ruffle-rs/ruffle": "0.2.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.0.4"
+  }
+}

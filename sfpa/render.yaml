@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sfpa-web-shell
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: .

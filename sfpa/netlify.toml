@@ -1,0 +1,9 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "."
+
+[[headers]]
+  for = "/vendor/ruffle/*.wasm"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "application/wasm"

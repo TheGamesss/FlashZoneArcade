@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<application xmlns="http://ns.adobe.com/air/application/26.0">
+    <id>com.bornegames.FPAWorld4</id>
+    <versionLabel>0.6</versionLabel>
+    <versionNumber>19</versionNumber>
+    <filename>SFPA</filename>
+    <description/>
+    
+
+  <!-- To localize the description, use the following format for the description element.
+    <description>
+        <text xml:lang="en">English App description goes here</text>
+        <text xml:lang="fr">French App description goes here</text>
+        <text xml:lang="ja">Japanese App description goes here</text>
+    </description>
+    -->
+    <name>SFPA</name>
+    
+
+  <!-- To localize the name, use the following format for the name element.
+    <name>
+        <text xml:lang="en">English App name goes here</text>
+        <text xml:lang="fr">French App name goes here</text>
+        <text xml:lang="ja">Japanese App name goes here</text>
+    </name>
+    -->
+    <copyright/>
+    <initialWindow>
+        <content>SFPA.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <autoOrients>false</autoOrients>
+        <aspectRatio>landscape</aspectRatio>
+        <renderMode>direct</renderMode>
+        <maximizable>true</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>true</resizable>
+    </initialWindow>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <icon>
+        <image167x167>assets/Icons/icons/Icon-167.png</image167x167>
+        <image29x29>assets/Icons/icons/Icon-small.png</image29x29>
+        <image40x40>assets/Icons/icons/Icon-40.png</image40x40>
+        <image50x50>assets/Icons/icons/Icon-50.png</image50x50>
+        <image48x48>assets/Icons/icons/Icon-48.png</image48x48>
+        <image57x57>assets/Icons/icons/Icon.png</image57x57>
+        <image58x58>assets/Icons/icons/Icon-small@2x.png</image58x58>
+        <image60x60>assets/Icons/icons/Icon-60.png</image60x60>
+        <image72x72>assets/Icons/icons/Icon-72.png</image72x72>
+        <image76x76>assets/Icons/icons/Icon-76.png</image76x76>
+        <image80x80>assets/Icons/icons/Icon-40@2x.png</image80x80>
+        <image75x75>assets/Icons/icons/Icon-75.png</image75x75>
+        <image87x87>assets/Icons/icons/Icon-small@3x.png</image87x87>
+        <image100x100>assets/Icons/icons/Icon-50@2x.png</image100x100>
+        <image114x114>assets/Icons/icons/Icon@2x.png</image114x114>
+        <image120x120>assets/Icons/icons/Icon-60@2x.png</image120x120>
+        <image144x144>assets/Icons/icons/Icon-72@2x.png</image144x144>
+        <image152x152>assets/Icons/icons/Icon-76@2x.png</image152x152>
+        <image180x180>assets/Icons/icons/Icon-60@3x.png</image180x180>
+        <image1024x1024>assets/Icons/icons/Icon-1024.png</image1024x1024>
+    </icon>
+    <iPhone>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+        <InfoAdditions><![CDATA[
+    <key>UIDeviceFamily</key>
+    <array><string>1</string><string>2</string></array>
+]]></InfoAdditions>
+    </iPhone>
+    <android>
+        <colorDepth>16bit</colorDepth>
+        <manifestAdditions><![CDATA[<manifest></manifest>]]></manifestAdditions>
+    </android>
+    <supportedProfiles>extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles>
+    
+  <extensions>
+    <extensionID>com.amanitadesign.steam.FRESteamWorks</extensionID>
+  </extensions>
+</application>
